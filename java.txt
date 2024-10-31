@@ -60,3 +60,15 @@ sudo chown -R jenkins:jenkins /opt/tomcat
 /opt/tomcat/bin/startup.sh
 
 )
+
+
+
+
+
+
+
+Create http to download apache tomcat using python
+cd /path/to/folder where apache tomcat is downloaded
+python3 -m http.server 8000
+localhost:8000
+
